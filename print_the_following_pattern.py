@@ -1,5 +1,10 @@
-n=int(input())
-for i in range(n,0,-1):
-    for j in range(1,i+1):
-        print(j,end="")
+tmp=int(input())
+n=tmp
+c=[]
+for i in range(n):
+    c.append(n)
+    n-=1
+for i in range(tmp):
+    for j in range(len(c)):
+        print(c[j],end=' ')
     print()    
