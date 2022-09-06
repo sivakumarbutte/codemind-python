@@ -1,4 +1,5 @@
-siva=int(input())
-for i in range(siva):
+n=int(input())
+for i in range(n):
     a,b=map(int,input().split())
-    print(a+b)
+    c=a+b
+    print(c)
