@@ -1,0 +1,11 @@
+n=int(input())
+square1=n*n
+b=str(n)[::-1]
+b=int(b)
+square2=b*b
+h=str(square2)[::-1]
+square1=str(square1)
+if(h==square1):
+    print('True')
+else:
+    print('False')
